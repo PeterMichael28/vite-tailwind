@@ -1,0 +1,8 @@
+# Ignore test files
+test/
+__tests__/
+
+# Ignore configs and dev setup
+tsconfig.json
+.eslintignore
+.eslintrc.js

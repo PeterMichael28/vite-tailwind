@@ -1,0 +1,46 @@
+{
+ "name": "michael-reactsmith",
+ "version": "1.0.0",
+ "type": "module",
+ "description": "A CLI tool to create Vite.js apps with Tailwind CSS, ShadCN, Framer Motion, and more.",
+ "main": "bin/index.mjs",
+ "bin": {
+  "michael-reactsmith": "bin/index.mjs"
+ },
+ "dependencies": {
+  "inquirer": "^9.0.0"
+ },
+ "devDependencies": {
+  "eslint": "^8.56.0"
+ },
+ "scripts": {
+  "test": "node test/index.test.mjs"
+ },
+ "files": [
+  "dist",
+  "README.md",
+  "postcss.config.js",
+  "bin/",
+  "src/"
+ ],
+ "keywords": [
+  "react",
+  "vite",
+  "cli",
+  "generator",
+  "tailwind",
+  "shadcn",
+  "scaffold",
+  "template"
+ ],
+ "author": "Michael Peter enitanpeters28@gmail.com",
+ "license": "MIT",
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/yourusername/reactelier.git"
+ },
+ "bugs": {
+  "url": "https://github.com/yourusername/reactelier/issues"
+ },
+ "homepage": "https://github.com/yourusername/reactelier#readme"
+}
